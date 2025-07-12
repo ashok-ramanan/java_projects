@@ -21,9 +21,21 @@ public class Hello {
 //        System.out.println("Division: "+ a/b);
 //        System.out.println("Is a greater than b? "+ (a>b));
 //        System.out.println("Is a > b and b > 0? "+ (a>b && b>0));
-        while (i<=10){
-            System.out.println("Hi " + i);
-            i++;
+//        while (i<=10){
+//            System.out.println("Hi " + i);
+//            i++;
+//        }
+        for(i=0; i<6; i++){
+            System.out.println("Day " + i);
+            for(int j=9; j<18; j++){
+                System.out.println("    " + ((j%12)==0?12:(j%12)) + "-" + ((j%12)+1));
+                }
+            }
+        int x = 5;
+
+        int y = 10;
+
+        int z = (x++ > 5 && y-- < 10) ? x-- : y;
+        System.out.println(z);
         }
-    }
 }
