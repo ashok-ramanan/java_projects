@@ -1,5 +1,8 @@
+import person.*;
+
 public class Main{
     public static void main(String[] args) {
-        System.out.println("Hello");
+        Boy boy1 = new Boy("Ashok", 25);
+        boy1.hello();
     }
 }

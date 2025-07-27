@@ -1,3 +1,5 @@
+package Basics;
+
 import java.util.Scanner;
 
 public class Calculator {
@@ -25,7 +27,7 @@ public class Calculator {
         Scanner input = new Scanner(System.in);
         String again = "y";
 
-        System.out.println("Welcome to the Calculator!");
+        System.out.println("Welcome to the Basics.Calculator!");
 
         while (again.equalsIgnoreCase("y")){
 

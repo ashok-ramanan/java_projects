@@ -1,3 +1,5 @@
+package Basics;
+
 class Mobile{
     private String brand;
     private String model;
