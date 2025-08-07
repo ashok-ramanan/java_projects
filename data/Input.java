@@ -9,6 +9,13 @@ public class Input {
     public static int nextInt() {
         return input.nextInt();
     }
+    public static char nextChar() {
+        String inputString = input.next();
+        if (inputString.length() > 1) {
+            throw new IllegalArgumentException("Input must be a single character.");
+        }
+        return inputString.charAt(0);
+    }
     public static String nextLine() {
         return input.nextLine();
     }
